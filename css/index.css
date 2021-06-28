@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/herringbone.png);
+}
+
+.rpa_cont_sec_1 {
+    padding: 10%;
+}
+
+.rpa_cont_sec_1 hr {
+    border-top: 1px solid rgba(1, 1, 1, 0.2);
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+
+.rpa_navbar {
+    background-color: rgba(255, 255, 255, 0.774) !important;
+}
+
+.rpa_navbar div {
+    background-color: transparent !important;
+}
+
+.rpa_navbar .rpa_drop {
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+.rpa_cont_footer {
+    background-color: rgba(39, 39, 43, 0.9);
+    padding: 2%;
+    color: white;
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.rpa_drop {
+    background-color: rgba(255, 255, 255, 0.774) !important;
+}

@@ -1,0 +1,99 @@
+    /* ESTILO DEL FORMULARIO UBICADO EN CONTACTOS */
+    
+    .body_from {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    form {
+        width: 60%;
+        background: rgb(255, 255, 255);
+        padding: 20px 0;
+        box-shadow: 0 0 6px rgba(252, 13, 13, 0.8);
+        border-radius: 20px;
+    }
+    
+    .form {
+        width: 90%;
+        margin: auto;
+    }
+    
+    form .grupo {
+        position: relative;
+        margin: 45px;
+    }
+    
+    form .grupo input {
+        background: none;
+        color: black;
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    
+    input:focus {
+        outline: none;
+        color: black;
+    }
+    
+    label {
+        font-size: 16px;
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        transition: 0.5s ease-in-out all;
+        pointer-events: none;
+    }
+    
+    input:focus~label,
+    input:valid~label {
+        top: -14px;
+        font-size: 12px;
+    }
+    
+    .barra {
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    
+    textarea {
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        background: transparent !important;
+        outline: none;
+        color: black;
+        font-size: 16px;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    .container h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        color: white;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    
+    .grupo h4 {
+        font-size: 16px;
+        color: black;
+    }
+    
+    .btn {
+        width: 50%;
+        background: rgb(22, 191, 197);
+        width: 300px;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
